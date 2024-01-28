@@ -21,7 +21,7 @@ func ConnectToDB() {
 		Logger: logger.Default.LogMode(logger.Info),
 	})
 	if err != nil {
-		panic("Failed to connect to database!")
+		panic("ATTN: Failed to connect to database!")
 	}
 	fmt.Println("Database connection established")
 }
